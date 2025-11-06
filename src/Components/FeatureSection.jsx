@@ -1,6 +1,50 @@
+import FeatureCard from "./FeatureCard";
 import FeatureSectionSVG from "./SVG/FeatureSectionSVG";
 
 function FeatureSection() {
+  const featureCards = [
+    {
+      id: 1,
+      div: "border-b border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6",
+      h3Txt: "Smart. Simple. Brilliant.",
+      pTxt: "Your data is beautifully organized so you see everything clearly without the clutter.",
+      divImg:
+        "w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden",
+      srcImg: "./src/assets/images/services/work-order.png",
+      classNameImg: "h-1/2 object-cover",
+    },
+    {
+      id: 2,
+      div: "border-b border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6",
+      h3Txt: "Your work, in sync",
+      pTxt: "Every update flows instantly across your team and keeps collaboration effortless and fast.",
+      divImg:
+        "w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden relative",
+      srcImg: "./src/assets/images/services/work-sync.png",
+      classNameImg: "h-full object-cover",
+    },
+    {
+      id: 3,
+      div: "border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6 bg-transparent",
+      h3Txt: "Effortless integration",
+      pTxt: "All your favorite tools connect in one place and work together seamlessly by design.",
+      divImg:
+        "w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden relative",
+      srcImg: "./src/assets/images/services/integration.png",
+      classNameImg: "h-full object-cover",
+    },
+    {
+      id: 4,
+      div: "p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6",
+      h3Txt: "Numbers that speak",
+      pTxt: "Track growth with precision and turn raw data into confident decisions you can trust.",
+      divImg:
+        "w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden relative",
+      srcImg: "./src/assets/images/services/speak.png",
+      classNameImg: "h-full object-cover",
+    },
+  ];
+
   return (
     <div className="w-full border-b border-[rgba(55,50,47,0.12)] flex flex-col justify-center items-center">
       {/* Header */}
@@ -37,81 +81,17 @@ function FeatureSection() {
 
         {/* Grid Content  */}
         <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-0 border-l border-r border-[rgba(55,50,47,0.12)]">
-          {/* Top Left */}
-          <div className="border-b border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight">
-                Smart. Simple. Brilliant.
-              </h3>
-              <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed">
-                Your data is beautifully organized so you see everything clearly
-                without the clutter.
-              </p>
-            </div>
-            <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden">
-              <img
-                src="./src/assets/images/services/work-order.png"
-                className="h-1/2 object-cover"
-              />
-            </div>
-          </div>
-
-          {/* Top Right with Sync Avatars  */}
-          <div className="border-b border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight">
-                Your work, in sync
-              </h3>
-              <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed">
-                Every update flows instantly across your team and keeps
-                collaboration effortless and fast.
-              </p>
-            </div>
-            <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden relative">
-              <img
-                src="./src/assets/images/services/work-sync.png"
-                className="h-full object-cover"
-              />
-            </div>
-          </div>
-
-          {/* Bottom Left */}
-          <div className="border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6 bg-transparent">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight">
-                Effortless integration
-              </h3>
-              <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed">
-                All your favorite tools connect in one place and work together
-                seamlessly by design.
-              </p>
-            </div>
-            <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden relative">
-              <img
-                src="./src/assets/images/services/integration.png"
-                className="h-full object-cover"
-              />
-            </div>
-          </div>
-
-          {/* Bottom Right */}
-          <div className="p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight">
-                Numbers that speak
-              </h3>
-              <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed">
-                Track growth with precision and turn raw data into confident
-                decisions you can trust.
-              </p>
-            </div>
-            <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden relative">
-              <img
-                src="./src/assets/images/services/speak.png"
-                className="h-full object-cover"
-              />
-            </div>
-          </div>
+          {featureCards.map((card) => (
+            <FeatureCard
+              key={card.id}
+              div={card.div}
+              h3Txt={card.h3Txt}
+              pTxt={card.pTxt}
+              divImg={card.divImg}
+              srcImg={card.srcImg}
+              classNameImg={card.classNameImg}
+            />
+          ))}
         </div>
 
         {/* Right Pattern  */}

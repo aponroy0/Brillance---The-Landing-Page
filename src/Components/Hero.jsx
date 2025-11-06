@@ -1,4 +1,4 @@
-import FeatureCard from "./FeatureCard";
+import FeatureCard from "./HeroCard";
 import HeroSVG from "./SVG/HeroSVG";
 
 export default function Hero() {
