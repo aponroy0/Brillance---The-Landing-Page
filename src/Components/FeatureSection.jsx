@@ -10,7 +10,7 @@ function FeatureSection() {
       pTxt: "Your data is beautifully organized so you see everything clearly without the clutter.",
       divImg:
         "w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden",
-      srcImg: "./public/assets/images/services/work-order.png",
+      srcImg: "./assets/images/services/work-order.png",
       classNameImg: "h-1/2 object-cover",
     },
     {
@@ -20,7 +20,7 @@ function FeatureSection() {
       pTxt: "Every update flows instantly across your team and keeps collaboration effortless and fast.",
       divImg:
         "w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden relative",
-      srcImg: "./public/assets/images/services/work-sync.png",
+      srcImg: "./assets/images/services/work-sync.png",
       classNameImg: "h-full object-cover",
     },
     {
@@ -30,7 +30,7 @@ function FeatureSection() {
       pTxt: "All your favorite tools connect in one place and work together seamlessly by design.",
       divImg:
         "w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden relative",
-      srcImg: "./public/assets/images/services/integration.png",
+      srcImg: "./assets/images/services/integration.png",
       classNameImg: "h-full object-cover",
     },
     {
@@ -40,7 +40,7 @@ function FeatureSection() {
       pTxt: "Track growth with precision and turn raw data into confident decisions you can trust.",
       divImg:
         "w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden relative",
-      srcImg: "./public/assets/images/services/speak.png",
+      srcImg: "./assets/images/services/speak.png",
       classNameImg: "h-full object-cover",
     },
   ];

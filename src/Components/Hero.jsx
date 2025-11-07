@@ -8,21 +8,21 @@ export default function Hero() {
       title: "Plan your schedules",
       description:
         "Streamline customer subscriptions and billing with automated scheduling tools.",
-      src: "./public/assets/images/services/plan-your-schedules.jpeg",
+      src: "./assets/images/services/plan-your-schedules.jpeg",
     },
     {
       id: 2,
       title: "Analytics & insights",
       description:
         "Transform your business data into actionable insights with real-time analytics.",
-      src: "./public/assets/images/services/analytics-dashboard-with-charts-graphs-and-data-vi.jpg",
+      src: "./assets/images/services/analytics-dashboard-with-charts-graphs-and-data-vi.jpg",
     },
     {
       id: 3,
       title: "Collaborate seamlessly",
       description:
         "Keep your team aligned with shared dashboards and collaborative workflows",
-      src: "./public/assets/images/services/data-visualization-dashboard-with-interactive-char.jpg",
+      src: "./assets/images/services/data-visualization-dashboard-with-interactive-char.jpg",
     },
   ];
   return (
