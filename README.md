@@ -7,11 +7,11 @@ This page highlights key product features, customer testimonials, analytics, int
 
 ## Live Demo
 
-`https://brillance-the-landing-page-iota.vercel.app/`
+https://brillance-the-landing-page-iota.vercel.app/
 
 </br>
 
-What I Learned
+## What I Learned
 
 This project was mainly focused on understanding how to convert plain HTML into reusable React components. I learned how to break a UI into smaller pieces, identify components that can be reused, and structure them in a way that is flexible for future changes. It helped me think more clearly about component design, reusability, and planning ahead for updates or new features.
 
