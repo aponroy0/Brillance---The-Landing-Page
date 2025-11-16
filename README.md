@@ -1,16 +1,49 @@
-# React + Vite
+# Brillance — Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern landing page designed for Brillance, a platform that simplifies custom contract billing with automation, real-time insights, and effortless team collaboration.
+This page highlights key product features, customer testimonials, analytics, integrations, and flexible pricing plans — all presented through a minimal and responsive user interface.
 
-Currently, two official plugins are available:
+</br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+`https://brillance-the-landing-page-iota.vercel.app/`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</br>
 
-## Expanding the ESLint configuration
+What I Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was mainly focused on understanding how to convert plain HTML into reusable React components. I learned how to break a UI into smaller pieces, identify components that can be reused, and structure them in a way that is flexible for future changes. It helped me think more clearly about component design, reusability, and planning ahead for updates or new features.
+
+</br>
+
+## Features
+
+- Hero section with a clear message and call-to-action
+- Product feature highlights including billing automation, insights, and collaboration tools
+- Testimonials section for credibility
+- Service details presented through feature cards
+- Integration and analytics showcase
+- Pricing plans with upgrade call-to-action
+- Fully responsive layout
+- Clean typography and modern UI design
+
+</br>
+
+## Tech Stack
+
+- HTML
+- Tailwind
+- JavaScript
+- React.js
+
+</br>
+
+## Getting Started
+
+```
+git clone https://github.com/aponroy0/Brillance---The-Landing-Page.git
+cd brillance-landing-page
+npm install
+npm run dev
+```
